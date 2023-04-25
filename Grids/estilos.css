@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway&family=Roboto:wght@300&family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 118, 0);   
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(0, 118, 0);
+    width: 100%;
+    height: 60px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 16px;
+    /*position: sticky;
+    top: 0;*/
+}
+
+.logo{
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.logo span:hover{
+    color: blueviolet;
+    text-shadow: 0px 0px 20px white;
+}
+
+.logo span{
+    color: white;
+    text-shadow: 0px 0px 20px black
+}
+
+.barra{
+    float: right;
+    word-spacing: 15px;
+    line-height: 30px;
+}
+
+.barra li{
+    list-style: none;
+    display: inline-block;
+}
+@media only screen and (max-width: 800px) {
+    .barra{
+        font-size: 15px;
+        margin: 0px;
+        margin-top: 10vh;
+    }
+    .barra li{
+        list-style: none;
+        display: none;
+    }
+    
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.barra a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.barra a:hover{
+    color: orangered;
+}
+
+main{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: black;
+    background-image: url(fotos/wreath-7863267_1920.jpg);
+    backgrou
+    background-size: cover;
+    background-position: right;
+}
+
+.call{
+    width: 50%;
+    color: white;
+    border: 5px solid rgb(163, 44, 0);    
+    float: right;
+    padding: 5px 20px 5px 20px;
+    margin: 20px;
+    text-align: right;
+}
+
+h1{
+    color: rgb(163, 44, 0);
+}
+
+p{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.call a{
+    color: white;
+    text-decoration: none;
+    float: left;
+    background-color: orangered;
+    padding: 5px;
+    margin: 5px 5px 10px 50px;
+    border: 2px orangered solid;
+}
+
+.call a:hover{
+    background-color: green;
+    border: 2px orangered solid;
+
+}
+
+.sec{
+    background-color: green;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.cont{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(154,172,134,255);
+    padding: 25px;
+}
+
+/*@media only screen and (max-width: 780px){
+    .cont{
+        height: 1700px;
+    }
+    
+    .cont.experiencia {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      
+      .card {
+        max-width: 300px;
+        margin: 10px auto;
+      }
+   
+}*/
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.redes i{
+    font-size: 50px;
+    margin-bottom: 5px;
+    letter-spacing: 30px;
+    color: green;
+}
+
+.redes i:hover{
+    color: orangered;
+}
+
+.subir{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: orangered;
+    font-size: 20px;
+    padding: 10px 10px 0px 10px;
+    border-radius: 50%;
+    border: solid 2px black;
+    color: white;
+}
+
+.subir:hover{
+    background-color: green;
+}
+
+.mifoto{
+    font-size: 3vh;
+}
+
+
+.fotoperfil{
+    float: left;
+    padding: 25px 25px 0px 25px;
+    width: 70vh;
+}
+
+.item{
+    height: 100px;
+    width: 120px;
+    color: green;
+    border: green solid 5px;
+    margin: 5px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 15px;
+    background-color: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contprogramas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.experiencia{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: none;
+}
+
+.card{
+    height: 450px;
+    width: 30%;
+    background-color: white;
+    border: black solid 3px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px 5px black;
+}
+
+.card-img{
+    background-image: url(./fotos/bird-7712374_1920.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border: black solid 5px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.card-img2{
+    background-image: url(./fotos/sheet-7668351_1920.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border: black solid 5px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.card-img3{
+    background-image: url(./fotos/bird-7787970_1920.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border: black solid 5px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.card h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px green;
+}
+
+.card h5{
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card-redes{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    background-color: green;
+}
+
+.card-redes a{
+    color: black;
+}
+
+.card-redes a:hover{
+    color: yellow;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    transition: all 0.9s;
+}
+
+/*  fotografia Grid*/
+
+.galeria{
+    width: 100%;
+    height: auto;
+    background-color: rgba(154,172,134,255);
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    grid-gap: 25px;
+
+}
+
+.foto{
+    width: 100%;
+    background-color: black;
+    border: 5px solid white;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+.foto:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.foto1{
+    background-image: url(./fotos/GOPR0582.JPG);
+}
+
+.foto2{
+    background-image: url(./fotos/GOPR0658.JPG);
+}
+
+.foto3{
+    background-image: url(./fotos/GOPR0717.JPG);
+}
+
+.foto4{
+    background-image: url(./fotos/GOPR7237.JPG);
+}
+
+.foto5{
+    background-image: url(./fotos/GOPR7239.JPG);
+}
+
+.foto6{
+    background-image: url(./fotos/GOPR7243.JPG);
+}
+
+.foto7{
+    background-image: url(./fotos/GOPR7275.JPG);
+}
+
+.foto8{
+    background-image: url(./fotos/GOPR7319.JPG);
+}
+
+.foto9{
+    background-image: url(./fotos/GOPR0517.JPG);
+}
+
+@media only screen and (min-width: 480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-row: repeat(4, 200px);
+    }
+    .foto5{
+        grid-row: 2/4;
+        grid-column: 1/2;
+    }
+    .foto4{
+        grid-row: 4/6;
+        grid-column: 2/3;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row: repeat(4, 200px);
+    }
+    .foto1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .foto2{
+        grid-row: 1/3;
+    }    
+    .foto5{
+        grid-row: 2/4;
+        grid-column: 1/2;
+    }
+    .foto4{
+        grid-column: 2/4;
+        grid-row: 3/4;
+    }
+    .foto8{
+        grid-column: 1/3;
+        grid-row: 4/6;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row: repeat(4, 200px)
+    }
+    .foto8{
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
+}
+
+.fotografia{
+    min-height: 450px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nleft{
+    background-image: url(./fotos/GOPR0565.JPG);
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.nright{
+    background-color: rgba(154,172,134,255);
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.nright h3{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 0px 0px 5px black;
+}
+
+.nright p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.nright a{
+    font-family: 'Rubik', sans-serif;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+@media only screen and (min-width:720px){
+    .fotografia{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+    .nleft{
+        width: 50%;
+    }
+    .nright{
+        width: 50%;
+    }
+}
