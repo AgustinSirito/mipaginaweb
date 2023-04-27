@@ -60,12 +60,12 @@ body {
 }
 
 .carousel-item{
-    height: 90vh;
-    position: relative;
     transition-duration: 0.2s !important;
 }
 
 .carousel-item img{
-    position: absolute;
+    height: 90vh;
+    width: 100%;
     bottom: 0;
+    object-fit: cover;
 }
