@@ -1,0 +1,69 @@
+@import "https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap";
+
+$color_1: white;
+$color_2: black;
+$color_3: rgb(50, 91, 179);
+$fontChivo: 'Chivo Mono', monospace;
+
+
+::selection {
+	background-color: $color_2;
+	color: aqua;
+}
+body {
+	background-color: rgb(59, 78, 119) !important;
+	color: $color_1;
+}
+.navbar {
+	background-color: $color_3;
+	text-transform: capitalize;
+}
+.piedepagina {
+	background-color: $color_3;
+	text-transform: capitalize;
+}
+.navbar-toggler {
+	i {
+		color: rgba(211, 39, 20, 0.621);
+	}
+	border: none;
+}
+.navbar-nav {
+	margin-left: auto;
+}
+.nav-item {
+	padding: 0px 15px 0px 15px;
+}
+.titulo {
+	box-shadow: 0px 0px 10px red;
+	color: $color_1;
+	margin-bottom: 65vh;
+	background-color: $color_2;
+}
+.principal {
+	font-family: $fontChivo;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url(./img/tree-736885_1280.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 90vh;
+	background-position: bottom;
+	background-color: $color_2;
+    .card {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+    }
+    .carousel-item {
+	    transition-duration: 0.2s !important;
+        height: 80vh;
+        img {
+            height: 80vh;
+            width: 100%;
+            bottom: 0;
+            object-fit: cover;
+	    }
+    }
+}
