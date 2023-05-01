@@ -58,12 +58,5 @@ body {
     }
     .carousel-item {
 	    transition-duration: 0.2s !important;
-        height: 80vh;
-        img {
-            height: 80vh;
-            width: 100%;
-            bottom: 0;
-            object-fit: cover;
-	    }
     }
 }

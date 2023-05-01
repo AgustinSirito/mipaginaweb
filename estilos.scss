@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 $fontBruno: 'Bruno Ace SC', cursive;
+$color_1: rgb(255, 255, 255,0.5);
+$color_2: black;
 
 * {
 	margin: 0;
@@ -7,15 +9,21 @@ $fontBruno: 'Bruno Ace SC', cursive;
 	box-sizing: border-box;
 }
 
+body{
+    background-image: url(./img/tiles-shapes-2617112_1920.jpg); 
+}
+
 header {
     text-align: center;
-    background-color: #000000;
+    background-color: $color_1;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: $color_2;
 	font-family: $fontBruno;
+    border: solid $color_2 5px;
+    border-radius: 5px;
 }
 
 .contenedor {
@@ -32,8 +40,12 @@ header {
 }
 
 .disenoindustrial {
-	background-color: rgb(50, 91, 179);
+	background-image: linear-gradient(to right,$color_2, rgb(50, 91, 179,0.7), $color_2);
     text-decoration: none;
+    // efecto esquina de pagina plegada donde esta?
+    //&:hover {
+        //transform: skew(-15deg);
+    //}*
 
     a {
         text-decoration: none;
@@ -41,8 +53,8 @@ header {
 		font-family: $fontBruno;
 
         &:hover {
-            color: white;
-            border: white solid 2px;
+            color: $color_1;
+            border: $color_1 solid 2px;
             border-radius: 10px;
             padding: 5px;
             transition: 0.5s;
@@ -51,8 +63,8 @@ header {
 }
 
 .fotografia {
-	background-color: rgb(0, 118, 0);
-	color: #fff;
+	background-image: linear-gradient(to left,$color_2,rgb(0, 118, 0, 0.7), $color_2);
+	color: $color_1;
 
     a {
         text-decoration: none;
@@ -60,8 +72,8 @@ header {
 		font-family: $fontBruno;
 
         &:hover {
-            color: black;
-            border: black solid 2px;
+            color: $color_2;
+            border: $color_2 solid 2px;
             border-radius: 10px;
             padding: 5px;
             transition: 0.5s;

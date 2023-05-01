@@ -286,7 +286,7 @@ footer {
 .card-redes a {
   color: black;
 }
-.card-redes a:hover {
+.card-redes a:focus {
   color: yellow;
 }
 
@@ -305,13 +305,15 @@ footer {
   width: 100%;
   background-color: black;
   border: 5px solid white;
+  border-radius: 10px;
   background-size: cover;
   background-position: center;
   filter: grayscale(100%);
 }
 .foto:hover {
   filter: grayscale(0%);
-  transform: scale(1.1);
+  transform: scale(1.2);
+  z-index: 1; /*para que este por delante*/
 }
 
 .foto1 {

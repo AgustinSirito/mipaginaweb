@@ -64,12 +64,4 @@ body {
 }
 .principal .carousel-item {
   transition-duration: 0.2s !important;
-  height: 80vh;
-}
-.principal .carousel-item img {
-  height: 80vh;
-  width: 100%;
-  bottom: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
 }/*# sourceMappingURL=estilos.css.map */

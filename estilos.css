@@ -5,15 +5,21 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(./img/tiles-shapes-2617112_1920.jpg);
+}
+
 header {
   text-align: center;
-  background-color: #000000;
+  background-color: rgba(255, 255, 255, 0.5);
   height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
   font-family: "Bruno Ace SC", cursive;
+  border: solid black 5px;
+  border-radius: 5px;
 }
 
 .contenedor {
@@ -30,7 +36,7 @@ header {
 }
 
 .disenoindustrial {
-  background-color: rgb(50, 91, 179);
+  background-image: linear-gradient(to right, black, rgba(50, 91, 179, 0.7), black);
   text-decoration: none;
 }
 .disenoindustrial a {
@@ -39,16 +45,16 @@ header {
   font-family: "Bruno Ace SC", cursive;
 }
 .disenoindustrial a:hover {
-  color: white;
-  border: white solid 2px;
+  color: rgba(255, 255, 255, 0.5);
+  border: rgba(255, 255, 255, 0.5) solid 2px;
   border-radius: 10px;
   padding: 5px;
   transition: 0.5s;
 }
 
 .fotografia {
-  background-color: rgb(0, 118, 0);
-  color: #fff;
+  background-image: linear-gradient(to left, black, rgba(0, 118, 0, 0.7), black);
+  color: rgba(255, 255, 255, 0.5);
 }
 .fotografia a {
   text-decoration: none;

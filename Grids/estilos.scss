@@ -272,8 +272,8 @@ footer {
 	font-size: 30px;
 	background-color: $color_1;
 	a {
-		color: black;
-		&:hover {
+		color: $color_4;
+		&:focus {
 			color: yellow;
 		}
 	}
@@ -292,12 +292,14 @@ footer {
 	width: 100%;
 	background-color: $color_4;
 	border: 5px solid white;
+	border-radius: 10px;
 	background-size: cover;
 	background-position: center;
 	filter: grayscale(100%);
 	&:hover {
 		filter: grayscale(0%);
-		transform: scale(1.1);
+		transform: scale(1.2);
+		z-index: 1; /*para que este por delante*/
 	}
 }
 .foto1 {
