@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import "./estilos/sitemap";
+
+
 $fontBruno: 'Bruno Ace SC', cursive;
 $color_1: rgb(255, 255, 255,0.5);
 $color_2: black;
@@ -81,7 +84,21 @@ header {
     }
 }
 
-a{
+a .columna{
     text-decoration: none;
     color: inherit;
+}
+
+/* Estilo para el contenedor del icono de sitemap*/
+.sitemap {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  i {
+    font-size: 24px;
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 50%;
+  }
 }

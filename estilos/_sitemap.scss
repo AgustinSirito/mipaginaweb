@@ -1,0 +1,21 @@
+.sitemapbody{
+    margin: 5vh;
+    padding: 5px;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    h1{
+        font-size: 50px;
+    }
+    ul{
+        margin-left: 10vh;
+        li{
+            @for $incremento from 1 through 4 {
+            .sitemaplinks-#{$incremento} {
+                margin-left: 10px * $incremento;
+                font-size: 40px / $incremento;
+                }
+            }
+        }
+    }
+}

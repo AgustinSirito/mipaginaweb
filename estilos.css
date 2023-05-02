@@ -1,4 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+.sitemapbody {
+  margin: 5vh;
+  padding: 5px;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+.sitemapbody h1 {
+  font-size: 50px;
+}
+.sitemapbody ul {
+  margin-left: 10vh;
+}
+.sitemapbody ul li .sitemaplinks-1 {
+  margin-left: 10px;
+  font-size: 40px;
+}
+.sitemapbody ul li .sitemaplinks-2 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.sitemapbody ul li .sitemaplinks-3 {
+  margin-left: 30px;
+  font-size: 13.3333333333px;
+}
+.sitemapbody ul li .sitemaplinks-4 {
+  margin-left: 40px;
+  font-size: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -69,7 +99,21 @@ header {
   transition: 0.5s;
 }
 
-a {
+a .columna {
   text-decoration: none;
   color: inherit;
+}
+
+/* Estilo para el contenedor del icono de sitemap*/
+.sitemap {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.sitemap i {
+  font-size: 24px;
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 50%;
 }/*# sourceMappingURL=estilos.css.map */
