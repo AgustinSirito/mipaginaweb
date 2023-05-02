@@ -5,28 +5,57 @@
   height: 90vh;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
+  text-transform: capitalize;
 }
 .sitemapbody h1 {
-  font-size: 50px;
+  font-size: 30px;
 }
 .sitemapbody ul {
   margin-left: 10vh;
+  color: rgb(0, 149, 55);
+  list-style-type: none;
+}
+.sitemapbody ul li {
+  padding: 5px;
+  padding: 5px;
+  padding: 5px;
+  padding: 5px;
 }
 .sitemapbody ul li .sitemaplinks-1 {
-  margin-left: 10px;
-  font-size: 40px;
+  margin-left: 20px;
+  font-size: 60px;
+}
+.sitemapbody ul li a {
+  text-decoration: none;
+  color: rgb(0, 149, 55);
+  border-bottom: 2px dashed rgb(0, 149, 55);
 }
 .sitemapbody ul li .sitemaplinks-2 {
-  margin-left: 20px;
-  font-size: 20px;
+  margin-left: 40px;
+  font-size: 30px;
+}
+.sitemapbody ul li a {
+  text-decoration: none;
+  color: rgb(0, 149, 55);
+  border-bottom: 2px dashed rgb(0, 149, 55);
 }
 .sitemapbody ul li .sitemaplinks-3 {
-  margin-left: 30px;
-  font-size: 13.3333333333px;
+  margin-left: 60px;
+  font-size: 20px;
+}
+.sitemapbody ul li a {
+  text-decoration: none;
+  color: rgb(0, 149, 55);
+  border-bottom: 2px dashed rgb(0, 149, 55);
 }
 .sitemapbody ul li .sitemaplinks-4 {
-  margin-left: 40px;
-  font-size: 10px;
+  margin-left: 80px;
+  font-size: 15px;
+}
+.sitemapbody ul li a {
+  text-decoration: none;
+  color: rgb(0, 149, 55);
+  border-bottom: 2px dashed rgb(0, 149, 55);
 }
 
 * {

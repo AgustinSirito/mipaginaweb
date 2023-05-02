@@ -1,20 +1,31 @@
+$colorsm: rgb(0, 149, 55);
+
 .sitemapbody{
     margin: 5vh;
     padding: 5px;
     height: 90vh;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
+    text-transform: capitalize;
     h1{
-        font-size: 50px;
+        font-size: 30px;
     }
     ul{
         margin-left: 10vh;
+        color: $colorsm;
+        list-style-type: none;
         li{
             @for $incremento from 1 through 4 {
             .sitemaplinks-#{$incremento} {
-                margin-left: 10px * $incremento;
-                font-size: 40px / $incremento;
+                margin-left: 20px * $incremento;
+                font-size: 40px / $incremento*1.5;
                 }
+                padding: 5px;
+                a{
+                text-decoration: none;
+                color: $colorsm;
+                border-bottom: 2px dashed $colorsm;
+            }
             }
         }
     }
