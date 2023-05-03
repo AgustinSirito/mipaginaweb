@@ -25,7 +25,10 @@ $colorsm: rgb(0, 149, 55);
                 text-decoration: none;
                 color: $colorsm;
                 border-bottom: 2px dashed $colorsm;
-            }
+                :hover{
+                    color: black;
+                }
+                }
             }
         }
     }

@@ -30,6 +30,9 @@
   color: rgb(0, 149, 55);
   border-bottom: 2px dashed rgb(0, 149, 55);
 }
+.sitemapbody ul li a :hover {
+  color: black;
+}
 .sitemapbody ul li .sitemaplinks-2 {
   margin-left: 40px;
   font-size: 30px;
@@ -38,6 +41,9 @@
   text-decoration: none;
   color: rgb(0, 149, 55);
   border-bottom: 2px dashed rgb(0, 149, 55);
+}
+.sitemapbody ul li a :hover {
+  color: black;
 }
 .sitemapbody ul li .sitemaplinks-3 {
   margin-left: 60px;
@@ -48,6 +54,9 @@
   color: rgb(0, 149, 55);
   border-bottom: 2px dashed rgb(0, 149, 55);
 }
+.sitemapbody ul li a :hover {
+  color: black;
+}
 .sitemapbody ul li .sitemaplinks-4 {
   margin-left: 80px;
   font-size: 15px;
@@ -56,6 +65,9 @@
   text-decoration: none;
   color: rgb(0, 149, 55);
   border-bottom: 2px dashed rgb(0, 149, 55);
+}
+.sitemapbody ul li a :hover {
+  color: black;
 }
 
 * {
