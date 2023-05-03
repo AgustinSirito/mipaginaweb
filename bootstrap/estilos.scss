@@ -1,9 +1,11 @@
 @import "https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 
 $color_1: white;
 $color_2: black;
 $color_3: rgb(50, 91, 179);
 $fontChivo: 'Chivo Mono', monospace;
+$fontKanit: 'Kanit', sans-serif;
 
 
 ::selection {
@@ -17,6 +19,7 @@ body {
 .navbar {
 	background-color: $color_3;
 	text-transform: capitalize;
+	font-family: $fontKanit;
 }
 .piedepagina {
 	background-color: $color_3;
@@ -57,6 +60,9 @@ body {
         align-items: center;
     }
     .carousel-item {
-	    transition-duration: 0.2s !important;
+		transition-duration: 0.2s !important;
     }
+}
+.container{
+	font-family: $fontChivo;
 }

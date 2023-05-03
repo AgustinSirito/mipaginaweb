@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
 ::-moz-selection {
   background-color: black;
   color: aqua;
@@ -16,6 +17,7 @@ body {
 .navbar {
   background-color: rgb(50, 91, 179);
   text-transform: capitalize;
+  font-family: "Kanit", sans-serif;
 }
 
 .piedepagina {
@@ -64,4 +66,8 @@ body {
 }
 .principal .carousel-item {
   transition-duration: 0.2s !important;
+}
+
+.container {
+  font-family: "Chivo Mono", monospace;
 }/*# sourceMappingURL=estilos.css.map */
