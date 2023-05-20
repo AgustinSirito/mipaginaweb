@@ -6,6 +6,7 @@ $color_2: white;
 $color_3: orangered;
 $color_4: black;
 $color_5: rgba(154,172,134,255);
+$color_6: rgb(50, 159, 255);
 $fontChivo: 'Chivo Mono', monospace;
 $fontKanit: 'Kanit', sans-serif;
 
@@ -34,6 +35,7 @@ $fontKanit: 'Kanit', sans-serif;
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 
     &::selection {
 	background-color: $color_4;
@@ -99,14 +101,14 @@ main {
 	height: calc(100vh - 80px);
 	width: 100%;
 	background-color: $color_4;
-	background-image: url(fotos/wreath-7863267_1920.jpg);
+	background-image: url(fotos/DJI_0326.jpg);
 	background-size: cover;
 	background-position: right;
 }
 .call {
 	width: 50%;
 	color: $color_1;
-	border: 5px solid rgb(163, 44, 0);
+	border: 5px solid $color_6;
 	float: right;
 	padding: 5px 20px 5px 20px;
 	margin: 20px;
@@ -132,7 +134,7 @@ main {
 	// }
 }
 h1 {
-	color: rgb(163, 44, 0);
+	color: $color_6;
 }
 p {
 	text-align: center;
